@@ -37,7 +37,7 @@
     position: relative;
     width: 100%;
     background-color: black;
-    opacity: 0.6;
+    opacity: 0.4;
 }
 
 nav {
@@ -66,7 +66,6 @@ nav {
     text-decoration: none;
     font-family: Nanum;
     margin: 0 auto;
-    
 }
 
 .box1 {
@@ -211,7 +210,7 @@ nav {
 
 @media screen and (min-width: 768px) {
     .text2 {
-        padding-top: 35% ;
+        padding-top: 25% ;
     }
 }
 
@@ -229,13 +228,13 @@ nav {
 
 @media screen and (min-width: 768px) {
     .text1 {
-        padding-top: 25%;
+        padding-top: 20%;
     }
 }
 
 @media screen and (min-width: 1024px) {
     .text1 {
-        padding-top: 20% ;
+        padding-top: 15% ;
     }
 }
 
