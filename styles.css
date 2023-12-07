@@ -12,8 +12,20 @@
     src: url(NanumMyeongjo-Regular.ttf);
 }
 
-.jumbotron {
+.jumbotron1 {
     background-image: url(peoplestanding.jpg);
+    width: 100vw;
+    position: absolute;
+}
+
+.jumbotron2 {
+    background-image: url(two_people1.jpg);
+    width: 100vw;
+    position: absolute;
+}
+
+.jumbotron3 {
+    background-image: url(man_computer.png);
     width: 100vw;
     position: absolute;
 }
@@ -21,8 +33,8 @@
 .logo {
     color: white;
     font-style: normal ;
-    padding-left: 90%;
     padding-right: 10%;
+    padding-left: 50%;
     text-decoration: none;
     display: flex;
     align-items: center;
@@ -30,14 +42,28 @@
     margin: auto;
     vertical-align: middle;
     font-weight: bold;
+    float: right;
 }
 
-.header-container {
+.header-container1 {
     display: flex;
     position: relative;
     width: 100%;
     background-color: black;
     opacity: 0.4;
+}
+
+.header-container2 {
+    display: flex;
+    position: relative;
+    width: 100%;
+    border-bottom: 1px solid white;
+}
+
+.header-container3 {
+    display: flex;
+    position: relative;
+    width: 100%;
 }
 
 nav {
@@ -52,11 +78,15 @@ nav {
 
 .header-logo {
     display: flex;
-    justify-content: end;
-    align-items: center;
+    position: relative;
+    justify-content: flex-end;
+    align-items: flex-end;
+    text-align: right;
+    float: right;
     width: max-content;
     height: 100%;
-    width: 100%;
+    width: 60%;
+    padding-left: 50%;
     padding: 10px;
     margin: 0 auto;
 }
@@ -81,7 +111,7 @@ nav {
 
 .text1 {
     align-items: center;
-    font-size: 16vw;
+    font-size: 10vw;
     margin: 0 auto;   
     height: 100%;
     position: relative;
@@ -94,6 +124,10 @@ nav {
     text-align: center;
 }
 
+.text1 ::selection, .menu ::selection, .logo ::selection {
+    color: #266A2E; 
+}
+
 .text2 {
     display: flex;
     font-size: 8vw;
@@ -101,6 +135,62 @@ nav {
     position: relative;
     justify-content: center;
     font-family: Nanum;
+}
+
+.text2_1 {
+    display: flex;
+    font-size: 3vw;
+    margin: auto;
+    position: relative;
+    justify-content: center;
+    font-family: Nanum;
+    padding-left: 10%;
+    padding-right: 10%;
+    text-align: center;
+}
+
+.text2_1_1 {
+    display: flex;
+    font-size: 3vw;
+    margin: auto;
+    position: relative;
+    justify-content: center;
+    font-family: Nanum;
+    padding-left: 10%;
+    padding-right: 10%;
+    text-align: center;
+}
+
+.text2 ::selection, .text2_1 ::selection {
+    color:  #CC6600;
+}
+
+.text3 {
+    display: flex;
+    font-size: 3.5vw;
+    margin: auto;
+    position: relative;
+    justify-content: center;
+    text-align: center;
+    font-family: Nanum;
+    padding: 5%;
+}
+
+.text3_1 {
+    display: flex;
+    font-size: 1.5vw;
+    margin: auto;
+    position: relative;
+    justify-content: center;
+    text-align: center;
+    font-family: Nanum;
+    padding-top: 2%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.text3 ::selection {
+    color: #F88379;
 }
 
 .arrow_icon {
@@ -140,6 +230,10 @@ nav {
     color: white;
 }
 
+.feature1 ::selection, .des1 ::selection {
+    color: #266A2E;
+}
+
 .feature_container2 {
     width: 100%;
     border-top: 1px solid black;
@@ -167,6 +261,10 @@ nav {
     padding-bottom: 10%;
 }
 
+.feature2 ::selection, .des2 ::selection {
+    color: #CC6600;
+}
+
 .footer {
     display: grid;
     grid: row;
@@ -182,7 +280,7 @@ nav {
 .footer1 {
     display: grid;
     grid: column;
-    font-size: 2vw;
+    font-size: 1.5vw;
     margin: auto;
     position: relative;
     font-family: Nanum;
@@ -194,64 +292,72 @@ nav {
     display: grid;
     grid: column;
     font-size: 2vw;
-    margin: auto;
+    margin: 0 auto;
     position: relative;
     font-family: Nanum;
     justify-content: space-evenly;
-    padding-top: 3%;
+    padding-top: 10%;
     padding-bottom: 0.5%;
 }
 
+.footer ::selection, .footer2 ::selection {
+    color: #CC6600;
+}
+
+.footer1 ::selection {
+    color: #266A2E;
+}
+
 @media screen and (min-width: 350px) {
-    .text2 {
-        padding-top: 50% ;
+    .text2, .text2_1 {
+        padding-top: 70% ;
     }
 }
 
 @media screen and (min-width: 768px) {
-    .text2 {
-        padding-top: 25% ;
+    .text2, .text2_1 {
+        padding-top: 40% ;
     }
 }
 
 @media screen and (min-width: 1024px) {
-    .text2 {
-        padding-top: 14%;
+    .text2, .text2_1 {
+        padding-top: 35%;
     }
 }
 
 @media screen and (min-width: 350px) {
     .text1 {
-        padding-top: 30%;
+        padding-top: 40%;
     }
 }
 
 @media screen and (min-width: 768px) {
     .text1 {
-        padding-top: 20%;
+        padding-top: 25%;
     }
 }
 
 @media screen and (min-width: 1024px) {
     .text1 {
-        padding-top: 15% ;
+        padding-top: 20% ;
     }
 }
 
 @media screen and (min-width: 350px) {
-    .jumbotron {
+    .jumbotron1, .jumbotron2, .jumbotron3 {
         height: 50%;
     }
 }
 
 @media screen and (min-width: 768px) {
-    .jumbotron {
+    .jumbotron1, .jumbotron2, .jumbotron3 {
         height: 50%;
     }
 }
 
 @media screen and (min-width: 1024px) {
-    .jumbotron {
+    .jumbotron1, .jumbotron2, .jumbotron3 {
         height: 100%;
     }
 }
